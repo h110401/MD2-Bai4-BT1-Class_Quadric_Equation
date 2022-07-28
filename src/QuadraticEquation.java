@@ -32,7 +32,7 @@ public class QuadraticEquation {
     }
 
     public double getDiscriminant() {
-        return Math.pow(b, 2) - 4 * a * c;
+        return b * b - 4 * a * c;
     }
 
     public double getRoot1() {
@@ -42,4 +42,5 @@ public class QuadraticEquation {
     public double getRoot2() {
         return (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
     }
+
 }
